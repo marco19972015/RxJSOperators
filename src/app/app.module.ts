@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { MapOperatorComponent } from './map-operator/map-operator.component';
 import { TapOperatorComponent } from './tap-operator/tap-operator.component';
 import { FilterOperatorComponent } from './filter-operator/filter-operator.component';
+import { TakeOperatorComponent } from './take-operator/take-operator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapOperatorComponent,
     TapOperatorComponent,
-    FilterOperatorComponent
+    FilterOperatorComponent,
+    TakeOperatorComponent
   ],
   imports: [
     BrowserModule
